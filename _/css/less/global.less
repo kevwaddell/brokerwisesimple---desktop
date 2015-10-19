@@ -1,0 +1,66 @@
+pre {
+	top: 50px;
+	left: 20px;
+	position: fixed;
+	z-index: 1000;
+	width: 50%;
+	height: 50%;
+	max-height: 500px;
+	overflow: auto;
+}
+
+html {
+width: 100%;
+height: 100%;
+.mag-top(0)!important;	
+}
+
+body {
+width: 100%;
+height: 100%;
+min-height: 100%;	
+.pos(relative);
+.pad-all(0);
+.mag-all(0);
+-webkit-tap-highlight-color: transparent;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+.font-size(1.6);
+.bg-col(@wht);
+}
+
+.bw-outerwrap {
+.pos(relative);	
+height: 100%;
+overflow: visible;
+}
+
+#wpadminbar {
+	.top(0);
+}
+
+.container {
+.min-w(117);	
+}
+
+a {
+.col(@grayLt);
+	&:hover, &:active, &:focus {
+	.col(@gray);
+	outline: none;	
+	}	
+}
+
+h2,h3,h4,h5 {
+font-weight: normal;
+.mag-top(0);
+.mag-bot(0);
+.col(@blk);		
+	&.col-orange {
+	.col(@orange);	
+	}
+}
+
+p {
+.col(@blk);	
+}

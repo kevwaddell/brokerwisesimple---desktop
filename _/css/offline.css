@@ -1,0 +1,118 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #878787;
+}
+#bg-right {
+  width: 50%;
+  height: 100%;
+  background-color: #c7c7c7;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-left: 10px solid white;
+}
+#banner {
+  position: absolute;
+  top: 20%;
+  height: 60%;
+  width: 100%;
+  text-align: center;
+  background-image: url("img/logo-shadow.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#banner:before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  width: 100%;
+  height: 22%;
+  background-color: #c54414;
+  z-index: 1;
+}
+#banner h1 {
+  position: relative;
+  height: 100%;
+  width: 300px;
+  background-image: url("img/logo-offline.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+  margin: 0px auto;
+  z-index: 2;
+}
+#content {
+  position: absolute;
+  top: 0px;
+  height: 20%;
+  width: 100%;
+  text-align: center;
+}
+#content h2 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2.750em;
+  line-height: 1em;
+  background-color: #e84e1b;
+  padding: 20px 10px 20px 10px;
+  width: 410px;
+  margin-top: 0px;
+  margin-left: -205px;
+  color: white;
+}
+#footer-info {
+  position: absolute;
+  top: 80%;
+  height: 20%;
+  width: 100%;
+  text-align: center;
+}
+#footer-info a {
+  position: absolute;
+  left: 50%;
+  width: 410px;
+  margin-left: -205px;
+  color: white;
+  text-decoration: none;
+  background-color: #e84e1b;
+  font-size: 1.750em;
+  line-height: 2.500em;
+}
+#footer-info a:hover {
+  background-color: #c54414;
+}
+a.login-btn {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 40px;
+  line-height: 40px;
+  width: 120px;
+  text-align: center;
+  color: #3c3c3c;
+  text-decoration: none;
+  background-color: #FFF;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+}
+a.login-btn:hover,
+a.login-btn:active,
+a.login-btn:focus {
+  opacity: 1;
+}
+html.svg #banner h1 {
+  background-image: url("img/logo-offline.svg");
+}

@@ -1,0 +1,109 @@
+body#login {
+	
+	#user-wrap {	
+	width: 100%;
+	height: 100%;
+	.min-h(50);
+	.bg-img('grid.png');
+	.bg-col(@grayLt);
+	.pos(relative);
+	}
+	
+	.wrap-center {
+	text-align: center;	
+	.pad-all(2);
+	height: 100%;
+		&:before {
+			content: "";
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+			margin-right: -0.25em;
+		}
+	}
+		
+	.tml {
+	display: inline-block;
+	vertical-align: middle;
+	.pad(6;2;2;2);
+	.trans-bg(white; 0.5);
+	.w(50);
+	.max-w(50);
+	.drop-shadow( 0, 0, 20px, 0.5); 	
+	.pos(relative);
+	.rounded(10px);
+	.border(@gray; 0.3);
+	
+		span.logo {
+		.pos(absolute);
+		left: 50%;
+		.top(-6);
+		.h(12);
+		.w(12);	
+		.bg-img('logo.png');
+		.bg-repeat(no-repeat);
+		background-position: center center;
+		.bg-size;
+		.mag-left(-6);
+		}
+		
+		.form-control {
+		.h(5);	
+		text-align: center;
+			&:focus {
+			.border-col(@orange);	
+			}
+		}
+		
+		label[for="rememberme"] {
+		display: inline-block;	
+		.mag-bot(0);
+		.line-h(3);
+		vertical-align: middle;
+		text-indent: 5px;
+		}
+		
+		input.btn {
+		.bg-col(@blk);
+		.col(white);
+		.border-col(@gray);	
+		.txt-trans;
+		.font-size(2);
+		.h(5);
+		
+			&:hover, &:active, &:focus {
+			.bg-col(@gray);
+			}
+		}
+	
+		.tml-action-links {
+		.mag-all(0);
+		.pad-all(0);
+		list-style: none;
+		display: block;
+		
+			li {
+			.mag-bot(1);	
+			float: none;
+			}
+		
+			a {
+			.display(block);
+			.h(5);
+			.line-h(5);
+			.col(@wht);
+			.bg-col(@gray);
+			.rounded(4px);
+			text-align: center;
+			.no-text-dec;
+			.font-size(1.4);
+			.txt-trans;
+				&:hover, &:active, &:focus {
+				.bg-col(@gray);
+				.col(white);
+				}	
+			}
+		}
+	}
+	
+}

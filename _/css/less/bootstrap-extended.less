@@ -1,0 +1,35 @@
+.modal {
+	
+	.modal-header {
+	border: none;
+	.bg-col(@orange);	
+	.border-radius(4px, 0, 0, 4px);
+		h4 {
+		.txt-trans;	
+		.col(@wht);
+		}
+	}
+	
+	.modal-body {
+	.pad-all(3);
+	.max-h(50);
+	.overflow(auto);	
+	}
+	
+	.modal-footer {
+	border: none;	
+	.bg-col(@gray);
+	.border-radius(0, 4px, 4px, 0);
+	
+		button {
+		border: none;	
+		.bg-col(@orange);
+		.col(@wht);
+			&:hover, &:active, &:focus {
+			.bg-col(@orangeDk);
+			}
+		}
+	}
+	
+	
+}
