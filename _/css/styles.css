@@ -5639,7 +5639,8 @@ footer#site-info small {
 }
 footer#site-info nav#legal-links {
   text-align: right;
-  padding-top: 20px;
+  border-right: 1px solid #ffffff;
+  height: 20px;
 }
 footer#site-info nav#legal-links a {
   color: #ffffff;
