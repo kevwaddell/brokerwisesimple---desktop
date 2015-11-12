@@ -3,6 +3,9 @@
 	<?php if ( have_posts() ) : ?>
 	
 	<?php 
+	$reg_statement = get_field('regulatory_statement', 'option');
+	$address = get_field('bw_address', 'option');
+	
 	$who_we_are_active = get_field('who_active', 'option');
 	$what_we_do_active = get_field('what_active', 'option');
 	$find_out_more_active = get_field('find_active', 'option');

@@ -1,4 +1,6 @@
 <?php 
+global $reg_statement;
+global $address;
 global $terms_active;
 global $cookies_active;
 global $privacy_active;	
@@ -11,10 +13,12 @@ global $privacy_active;
 			</div>
 			
 			<div class="col-xs-6">
-				<small>Brokerwise is the appointed representative of Legal Insurance Management ……….</small>
-
-				<small>Broker wise Limited, 135 High Street, Broadstairs, Kent, United Kingdom, CT10 1NG  
-				Registered in England and Wales. Company Number : 09702266</small>
+				<?php if ($reg_statement) { ?>
+				<small><?php echo $reg_statement; ?></small>
+				<?php } ?>
+				<?php if ($address) { ?>
+				<small><?php echo $address; ?></small>
+				<?php } ?>
 			</div>
 			
 			<div class="col-xs-5">
