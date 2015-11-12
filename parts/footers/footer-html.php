@@ -23,7 +23,7 @@ global $privacy_active;
 					<a href="#terms-and-conditions" data-toggle="modal" data-target="#terms-and-conditions">Terms and Conditions</a>			
 					<?php } ?>
 					<?php if ($cookies_active) { ?>
-					<a href="#cookie-policy" data-toggle="modal" data-target="#cookie-policy">Cookies</a>
+					<a href="#cookie-policy" data-toggle="modal" data-target="#cookie-policy">Cookie Policy</a>
 					<?php } ?>
 					<?php if ($privacy_active) { ?>
 					<a href="#privacy-policy" data-toggle="modal" data-target="#privacy-policy">Privacy Policy</a>
