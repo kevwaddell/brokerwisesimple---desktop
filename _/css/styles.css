@@ -6024,6 +6024,20 @@ figure.alignnone {
 .gform_wrapper form.two-column .gform_footer input.gform_button:focus {
   background-color: #3c3c3c;
 }
+.gform_confirmation_wrapper {
+  padding: 20px;
+  font-size: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #3c3c3c;
+}
+.gform_confirmation_wrapper p {
+  color: #ffffff;
+}
+.gform_confirmation_wrapper strong {
+  color: #e84e1b;
+}
 .modal .modal-header {
   border: none;
   background-color: #e84e1b;
