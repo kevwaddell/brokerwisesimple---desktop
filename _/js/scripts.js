@@ -4,7 +4,7 @@
 		
 		var select_picker = $('.selectpicker').find('select');
 		
-		if (select_picker.length == 1) {
+		if (select_picker) {
 			var placeholder = $(select_picker).find('option.gf_placeholder');
 			$(placeholder).attr('data-hidden', 'true');
 		}
